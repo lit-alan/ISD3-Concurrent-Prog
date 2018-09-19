@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public class LocaleEX1 {
     
-    //testing git 20:27
+    //testing git 20:30
 
     
     public static void main(String[] args) {
