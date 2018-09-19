@@ -6,6 +6,9 @@ import java.util.Locale;
 
 public class LocaleEX1 {
     
+    //testing git 20:27
+
+    
     public static void main(String[] args) {
         GregorianCalendar cal = new GregorianCalendar();
         
