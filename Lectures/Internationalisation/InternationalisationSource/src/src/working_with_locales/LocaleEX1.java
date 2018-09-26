@@ -5,12 +5,12 @@ import java.util.GregorianCalendar;
 import java.util.Locale;
 
 public class LocaleEX1 {
-    
+        
     public static void main(String[] args) {
         GregorianCalendar cal = new GregorianCalendar();
         
         Locale  locales[] = new Locale[4];
-        
+       
         //English-Ireland
         locales[0] = new Locale("en", "IE");
         
