@@ -15,10 +15,10 @@ import java.util.ResourceBundle;
 public class Main extends javax.swing.JFrame {
     
     //array to hold the options in the combobox
-    String language[] = {"English", "French", "German", "Italian", "Spanish"};
+    String language[] = {"English", "French", "German", "Italian", "Spanish", "Russian", "Dutch"};
 
     //array of locales
-    Locale locales[] = {new Locale("en"), new Locale("fr"), new Locale("de"), new Locale("it"), new Locale("es")};
+    Locale locales[] = {new Locale("en"), new Locale("fr"), new Locale("de"), new Locale("it"), new Locale("es"), new Locale("ru")};
 
     //declare and create your resource bundle
     static ResourceBundle rb = ResourceBundle.getBundle("bundles.MyResourceBundle");
