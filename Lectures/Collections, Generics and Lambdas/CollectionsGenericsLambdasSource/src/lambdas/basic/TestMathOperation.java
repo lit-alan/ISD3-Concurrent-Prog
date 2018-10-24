@@ -1,5 +1,7 @@
 package lambdas.basic;
 
+import java.util.Random;
+
 public class TestMathOperation {
 
     public static void main(String[] args) {
@@ -22,6 +24,9 @@ public class TestMathOperation {
          MathOperation remainder  = (int a, int b) -> b % a;
          System.out.println("\n20 % 3  = " + operate(3, 20, remainder));
     
+         Random r = new Random();
+         MathOperation rand = (int min, int max) -> { return r.nextInt((max - min) + 1 ) + min; }; 
+         System.out.println("\nRand Number between 3 and 20 = " + operate(3, 20, rand));
     
     }//end method
     
