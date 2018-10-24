@@ -18,6 +18,11 @@ public class TestMathOperation {
          
          MathOperation division  = (int a, int b) -> b / a;
          System.out.println("\n20 / 10  = " + operate(10, 20, division));
+    
+         MathOperation remainder  = (int a, int b) -> b % a;
+         System.out.println("\n20 % 3  = " + operate(3, 20, remainder));
+    
+    
     }//end method
     
     public int operate(int a, int b, MathOperation math) {
