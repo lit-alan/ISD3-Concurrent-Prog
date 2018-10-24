@@ -28,6 +28,8 @@ public class TestMathOperation {
          MathOperation rand = (int min, int max) -> { return r.nextInt((max - min) + 1 ) + min; }; 
          System.out.println("\nRand Number between 3 and 20 = " + operate(3, 20, rand));
     
+         System.out.println("\nAddition of 3, 4 and 5 = " + operate(operate(3,4,addition),5,addition));
+         
     }//end method
     
     public int operate(int a, int b, MathOperation math) {
