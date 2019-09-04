@@ -1,2 +1,0 @@
-ExerciseThree.HandleAClient
-ExerciseThree.MultithreadedServer
